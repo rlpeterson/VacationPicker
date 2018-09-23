@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Survey</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Vacation Picker</h1>
+      <div class="jumbotron">
+      <h3>Complete this survey to figure out your next destination:</h3>
+        <form id="survey">
+          <ol>
+            <li>
+             <h4>Which do you prefer, while on vacation?</h4>
+              <select class="form-control" id="choice">
+                <option value="0"> Paddleboarding a lake</option>
+                <option value="1"> Climbing a mountain</option>
+                <option value="2"> Hiking the trails</option>
+                <option value="3"> Biking in the desert</option>
+                <option value="4"> On a beach with a drink</option>
+              </select>
+            </li>
+            <li>
+              <h4>Do you want to exercise or relax?</h4>
+              <div class="radio">
+                <label><input type="radio" name="fitness" value="exercise"> Exercise</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="fitness" value="relax"> Relax</label>
+              </div>
+            </li>
+            <li>
+              <h4>Do you like hiking or lying on the beach?</h4>
+              <div class="radio">
+                <label><input type="radio" name="level" value="sweat"> Love to hike!</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="level" value="pretty"> Love to relax and tan!</label>
+              </div>
+            </li>
+            <li>
+              <h4>How do you like to travel?</h4>
+              <div class="radio">
+                <label><input type="radio" name="style" value="large"> With tour group</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="style" value="small"> With friends</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="style" value="solo"> By myself</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="style" value="any"> Surprise me!</label>
+              </div>
+            </li>
+            <li>
+              <div class="empty">
+                <div class="form-group">
+                  <label for="place"><h4>What is your favorite place in the world?</h4></label>
+                  <input id="place" class="form-control" type="text">
+                </div>
+              </div>
+            </li>
+          </ol>
+          <button onclick="location.href = 'results.html'" type="submit" class="btn">Analyze my data!</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
