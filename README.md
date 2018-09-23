@@ -13,7 +13,7 @@ You will need to use a web browser on any pc, mac, or tablet/mobile device
 
 ## Authors
 
-* **Rob Peterson** - *Epicodus PDX Evening Summer 2018* - https://rlpeterson.github.io/
+**Rob Peterson** - *Epicodus PDX Evening Summer 2018* - https://rlpeterson.github.io/
 
 ## License
 
